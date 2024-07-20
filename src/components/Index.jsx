@@ -28,6 +28,7 @@ export const Index = () => {
     function reload(){
         generateRandomNumberGif(gifLimit);
         generateRandomNumberMusic(musicLimit);
+        audioElement.current.play();
     }
 
     function playPause(){
